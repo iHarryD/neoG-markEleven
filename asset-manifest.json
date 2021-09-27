@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/neoG-markEleven/static/css/main.08b6e3af.chunk.css",
+    "main.js": "/neoG-markEleven/static/js/main.574daf84.chunk.js",
+    "main.js.map": "/neoG-markEleven/static/js/main.574daf84.chunk.js.map",
+    "runtime-main.js": "/neoG-markEleven/static/js/runtime-main.8fd84a92.js",
+    "runtime-main.js.map": "/neoG-markEleven/static/js/runtime-main.8fd84a92.js.map",
+    "static/js/2.d2a97565.chunk.js": "/neoG-markEleven/static/js/2.d2a97565.chunk.js",
+    "static/js/2.d2a97565.chunk.js.map": "/neoG-markEleven/static/js/2.d2a97565.chunk.js.map",
+    "static/js/3.c30fbaf1.chunk.js": "/neoG-markEleven/static/js/3.c30fbaf1.chunk.js",
+    "static/js/3.c30fbaf1.chunk.js.map": "/neoG-markEleven/static/js/3.c30fbaf1.chunk.js.map",
+    "index.html": "/neoG-markEleven/index.html",
+    "static/css/main.08b6e3af.chunk.css.map": "/neoG-markEleven/static/css/main.08b6e3af.chunk.css.map",
+    "static/js/2.d2a97565.chunk.js.LICENSE.txt": "/neoG-markEleven/static/js/2.d2a97565.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/neoG-markEleven/static/media/body-bg.f5679ce1.png",
+    "static/media/button-bg.ae269b74.png": "/neoG-markEleven/static/media/button-bg.ae269b74.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fd84a92.js",
+    "static/js/2.d2a97565.chunk.js",
+    "static/css/main.08b6e3af.chunk.css",
+    "static/js/main.574daf84.chunk.js"
+  ]
+}
