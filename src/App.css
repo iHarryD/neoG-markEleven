@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+
+:root {
+  --background-clr: #fff;
+  --main-ff: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  --accent-clr: #c4dbf2d2;
+}
+
+/* Basics */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background: url(../src/body-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+input,
+button,
+a {
+  border: none;
+  outline: none;
+  background: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Typography */
+
+body {
+  color: #000;
+  font-family: var(--main-ff);
+}
+
+header {
+  font-family: "Bonheur Royale", cursive;
+  font-size: 1.5rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.output-div {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+footer,
+main {
+  text-align: center;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+/*Styling*/
+
+main {
+  flex-grow: 1;
+}
+header {
+  padding: 1em;
+}
+
+input {
+  margin: 0.5em auto;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  display: block;
+  width: min(300px, 90%);
+  background: var(--accent-clr);
+  border-radius: 5px;
+}
+
+button {
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 250ms;
+  position: relative;
+}
+
+.output-div {
+  background: rgba(255, 255, 255, 0.568);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+footer {
+  padding: 1em;
+  background: var(--accent-clr);
+  padding-bottom: 1px;
+}
+
+#social-media-tab li {
+  margin: 10px;
+}
+
+.social-media-links:hover {
+  text-decoration: underline;
+}
+
+#portfolio-link {
+  margin-top: 20px;
+  opacity: 0.6;
+  transition: all 250ms;
+}
+#portfolio-link:hover {
+  opacity: 1;
+}
+
+footer span {
+  position: relative;
+  top: -8px;
+  opacity: 0.8;
+}
